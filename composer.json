@@ -1,0 +1,24 @@
+{
+    "name": "ride/cli-i18n",
+    "description": "I18n commands for the CLI of a Ride application",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app": ">=0.7.0",
+        "ride/app-i18n": ">=0.1.0",
+        "ride/cli": ">=0.5.0",
+        "ride/lib-cli": ">=0.1.0",
+        "ride/lib-i18n": ">=0.1.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\cli\\command\\i18n\\": ["src/"]
+        }
+    }
+}

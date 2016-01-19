@@ -1,0 +1,24 @@
+{
+    "commands": [
+        {
+            "name": "translation",
+            "aliases": "t",
+            "class": "ride\\cli\\command\\i18n\\TranslationSearchCommand"
+        },
+        {
+            "name": "translation set",
+            "aliases": "ts",
+            "class": "ride\\cli\\command\\i18n\\TranslationSetCommand"
+        },
+        {
+            "name": "translation unset",
+            "aliases": "tu",
+            "class": "ride\\cli\\command\\i18n\\TranslationUnsetCommand"
+        },
+        {
+            "name": "translation missing",
+            "aliases": "tm",
+            "class": "ride\\cli\\command\\i18n\\TranslationMissingCommand"
+        }
+    ]
+}
