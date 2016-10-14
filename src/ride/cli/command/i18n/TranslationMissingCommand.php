@@ -7,7 +7,7 @@ use ride\cli\command\AbstractCommand;
 use ride\library\i18n\I18n;
 
 /**
- * Command to search for a secured path
+ * Command to sync the keys of the different locales
  */
 class TranslationMissingCommand extends AbstractCommand {
 
@@ -16,7 +16,7 @@ class TranslationMissingCommand extends AbstractCommand {
      * @return null
      */
     protected function initialize() {
-        $this->setDescription('Adds missing translation keys to the locales.');
+        $this->setDescription('Makes sure all locales have the same translation keys defined by adding keys which are missing but defined in an other locale');
     }
 
     /**

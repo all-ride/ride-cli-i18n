@@ -7,7 +7,7 @@ use ride\cli\command\AbstractCommand;
 use ride\library\i18n\I18n;
 
 /**
- * Command to search for a secured path
+ * Command to set a translation
  */
 class TranslationSetCommand extends AbstractCommand {
 
@@ -16,7 +16,7 @@ class TranslationSetCommand extends AbstractCommand {
      * @return null
      */
     protected function initialize() {
-        $this->setDescription('Unsets a translation from the provided locale.');
+        $this->setDescription('Sets a translation from the provided locale.');
 
         $this->addArgument('locale', 'Locale of the translation');
         $this->addArgument('key', 'Key of the translation');
