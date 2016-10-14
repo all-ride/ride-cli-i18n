@@ -1,6 +1,11 @@
 {
     "commands": [
         {
+            "name": "locales",
+            "aliases": "l",
+            "class": "ride\\cli\\command\\i18n\\LocaleSearchCommand"
+        },
+        {
             "name": "translation",
             "aliases": "t",
             "class": "ride\\cli\\command\\i18n\\TranslationSearchCommand"

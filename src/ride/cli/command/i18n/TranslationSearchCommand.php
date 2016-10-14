@@ -7,7 +7,7 @@ use ride\cli\command\AbstractCommand;
 use ride\library\i18n\I18n;
 
 /**
- * Command to search for a secured path
+ * Command to search for a translation
  */
 class TranslationSearchCommand extends AbstractCommand {
 
